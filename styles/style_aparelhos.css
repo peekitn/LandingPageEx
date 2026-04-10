@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #ffffff;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.05); */
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 30px;
+  gap: 20px;
+}
+
+.show-aparelhos {
+  max-width: 500px;
+  text-align: justify;
+}
+
+.show-aparelhos h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.show-aparelhos p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.show-aparelhos img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
