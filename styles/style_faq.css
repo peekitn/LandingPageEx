@@ -1,0 +1,59 @@
+/* ===== FAQ ===== */
+.faq {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.faq h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* ITEM */
+.faq-item {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+/* ESCONDE CHECKBOX */
+.faq-item input {
+  display: none;
+}
+
+/* PERGUNTA */
+.faq-item label {
+  display: block;
+  padding: 15px;
+  background: #c60c30;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.faq-item label:hover {
+  background: #a50927;
+}
+
+/* RESPOSTA */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #f9f9f9;
+  transition: max-height 0.4s ease;
+}
+
+.faq-content p {
+  padding: 15px;
+  margin: 0;
+  color: #333;
+}
+
+/* ABRIR DROPDOWN */
+.faq-item input:checked ~ .faq-content {
+  max-height: 200px;
+}
