@@ -1,3 +1,4 @@
+
 /* ===== NAVBAR ===== */
 .navbar {
   display: flex;
@@ -238,11 +239,76 @@
   margin: 20px auto 0 auto;
 }
 
-.footer{
-    display: flex;
-  justify-content: space-between;
-  padding: 15px 30px;
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 50px 30px 20px;
+  margin-top: 60px;
 }
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  flex-wrap: wrap;
+}
+
+.footer-brand,
+.footer-nav,
+.footer-contact {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #c60c30;
+}
+
+.footer p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #c60c30;
+  padding-left: 5px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #777;
+  font-size: 14px;
+}
+
 
 /* ===== Responsividade ===== */
 
@@ -325,4 +391,19 @@
   .beneficios-text a {
     font-size: 18px;
   }
+
+ .footer-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-nav ul {
+    padding: 0;
+  }
+
+  .footer-nav a:hover {
+    padding-left: 0;
+  }
 }
+
+
