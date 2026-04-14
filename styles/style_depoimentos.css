@@ -18,7 +18,7 @@
 margin-bottom: 15PX;
 }
 
-.video-item:not(.reverse) {
+.video-item:not(.reverse) { /* q nao sao .reverse elemento */
   justify-content: flex-start;
 }
 
