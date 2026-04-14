@@ -18,7 +18,7 @@
 margin-bottom: 15PX;
 }
 
-.video-item:not(.reverse) { /* q nao sao .reverse elemento */
+.video-item:not(.reverse) { /* q nao sao qualquer elemento.reverse elemento */
   justify-content: flex-start;
 }
 
