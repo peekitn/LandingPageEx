@@ -1,4 +1,6 @@
-
+body {
+  margin: 0;
+}
 /* ===== NAVBAR ===== */
 .navbar {
   display: flex;
@@ -309,6 +311,11 @@
   font-size: 14px;
 }
 
+.hero,
+.problems,
+.beneficios {
+  margin: 20px;
+}
 
 /* ===== Responsividade ===== */
 
