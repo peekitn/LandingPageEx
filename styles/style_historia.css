@@ -1,3 +1,5 @@
+/* ===== FAQ ===== */
+
 .merchan { 
   text-align: center; 
   padding: 40px 20px; 
@@ -17,7 +19,6 @@
   flex-wrap: wrap; /* responsivo */
 }
 
-/* TEXTO */
 .p1 p, .p2 p, .p3 p, .p4 p {
   max-width: 500px;
   font-size: 18px;
@@ -25,19 +26,15 @@
   text-align: justify;
 }
 
-/* IMAGEM */
 .p1 img, .p2 img, .p3 img, .p4 img {
   width: 100%;
   max-width: 400px;
   border-radius: 15px;
   object-fit: cover;
-
-  /* efeito bonito */
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
   transition: transform 0.3s ease;
 }
 
-/* hover elegante */
 .p1 img:hover,
 .p2 img:hover,
 .p3 img:hover,
@@ -45,7 +42,6 @@
   transform: scale(1.05);
 }
 
-/* alternância */
-.p2, .p4 {
+.p2, .p4 { /* para alternância entre os trechos */
   flex-direction: row-reverse;
 }

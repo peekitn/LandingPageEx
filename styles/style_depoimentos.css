@@ -1,35 +1,11 @@
+/* ===== Depoimentos ===== */
+
 .depoimentos {
   text-align: center;
   padding: 40px 20px;
 }
 .depoimentos h1 {
   font-size: 50px; 
-}
-.atraindo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.video-item {
-  display: flex;
-  width: 100%;
-  max-width: 900px;
-margin-bottom: 15PX;
-}
-
-.video-item:not(.reverse) { /* q nao sao qualquer elemento.reverse elemento */
-  justify-content: flex-start;
-}
-
-.video-item.reverse {
-  justify-content: flex-end;  
-}
-
-.video-item.destaque iframe {
-  background-color: #c60c30;
-  padding: 30px;
-  border-radius: 15px;
 }
 
 .carousel {
@@ -50,21 +26,18 @@ margin-bottom: 15PX;
   display: none;
 }
 
-/* slides */
 .slide {
   flex: 0 0 100%;
   scroll-snap-align: center;
 }
 
-/* vídeos */
 .slide iframe {
   width: 100%;
   height: 520px;
   border-radius: 15px;
 }
 
-/* bolinhas */
-.controls {
+.controls { /* aqui são as bolinhas abaixo dos vídeos */
   margin-top: 15px;
 }
 

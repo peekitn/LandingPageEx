@@ -1,4 +1,5 @@
-body {
+
+body { /* reset only */
   margin: 0;
 }
 /* ===== NAVBAR ===== */
@@ -50,7 +51,6 @@ body {
   margin-bottom: 30px;
 }
 
-/* BOTÃO GLOBAL */
 .btn-hero {
   background: #c60c30;
   color: white;
@@ -199,7 +199,6 @@ body {
   max-width: 500px;
 }
 
-/* BOTÃO OUTLINE */
 .btn-outline {
   border: 2px solid black;
 }
@@ -240,6 +239,8 @@ body {
   display: inline-block;
   margin: 20px auto 0 auto;
 }
+
+/* ===== FOOTER ===== */
 
 .footer {
   background-color: #111;
@@ -311,13 +312,14 @@ body {
   font-size: 14px;
 }
 
+/* ===== FORMATÇÃO GERAL ===== */
 .hero,
 .problems,
 .beneficios {
   margin: 20px;
 }
 
-/* ===== Responsividade ===== */
+/* ===== Apenas para responsividade ===== */
 
 @media (max-width: 768px) {
 

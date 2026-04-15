@@ -10,7 +10,6 @@
   margin-bottom: 40px;
 }
 
-/* ITEM */
 .faq-item {
   margin-bottom: 15px;
   border-radius: 8px;
@@ -18,12 +17,10 @@
   border: 1px solid #ddd;
 }
 
-/* ESCONDE CHECKBOX */
 .faq-item input {
   display: none;
 }
 
-/* PERGUNTA */
 .faq-item label {
   display: block;
   padding: 15px;
@@ -34,12 +31,10 @@
   transition: 0.3s;
 }
 
-/* HOVER */
 .faq-item label:hover {
   background: #a50927;
 }
 
-/* RESPOSTA */
 .faq-content {
   max-height: 0;
   overflow: hidden;
@@ -53,7 +48,6 @@
   color: #333;
 }
 
-/* ABRIR DROPDOWN */
-.faq-item input:checked ~ .faq-content {
+.faq-item input:checked ~ .faq-content { /* aqui abre o dropdown */
   max-height: 200px;
 }

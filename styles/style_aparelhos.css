@@ -1,27 +1,4 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 30px;
-  background: #ffffff;
-  /* box-shadow: 0 2px 8px rgba(0,0,0,0.05); */
-}
-
-.logo {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
+/* ===== SHOW ===== */
 
 .show {
   display: flex;
@@ -53,6 +30,8 @@
   max-width: 500px;
   border-radius: 10px;
 }
+
+/* ===== BLOCOS ===== */
 
 .blocos {
   padding: 60px 30px;
