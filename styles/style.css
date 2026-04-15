@@ -31,7 +31,7 @@ body { /* reset only */
 .hero {
   height: 361.60px; /* 80vh */
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-              url('../images/Test.avif') center/cover no-repeat;
+              url('../images/Hero.avif') center/cover no-repeat;
   border-radius: 10px;
   display: flex;
   align-items: center;
