@@ -46,7 +46,7 @@
 }
 
 .bloco.reverse {
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; /* invertendo o lado do aparelho do meio */
 }
 
 .bloco-texto {
@@ -61,6 +61,7 @@
 .bloco-texto p {
   color: #555;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .bloco-img img {
