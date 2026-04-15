@@ -1,29 +1,51 @@
-.merchan {
-  text-align: center;
-  padding: 40px 20px;
-}
-.merchan h1 {
+.merchan { 
+  text-align: center; 
+  padding: 40px 20px; 
+} 
+
+.merchan h1 { 
   font-size: 50px; 
 }
+
+/* ===== BLOCO GERAL ===== */
 .p1, .p2, .p3, .p4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
-  padding: 0 20px;
+  gap: 40px;
+  margin: 40px 20px;
+  flex-wrap: wrap; /* responsivo */
 }
 
+/* TEXTO */
 .p1 p, .p2 p, .p3 p, .p4 p {
-  max-width: 800px;
+  max-width: 500px;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.7;
   text-align: justify;
 }
 
-/* alternância */
-.p1 { justify-content: flex-start; }
-.p2 { justify-content: flex-end; }
-.p3 { justify-content: flex-start; }
-.p4 { justify-content: flex-end; }
+/* IMAGEM */
+.p1 img, .p2 img, .p3 img, .p4 img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  object-fit: cover;
 
-/*ou talvez tirar*/
+  /* efeito bonito */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+/* hover elegante */
+.p1 img:hover,
+.p2 img:hover,
+.p3 img:hover,
+.p4 img:hover {
+  transform: scale(1.05);
+}
+
+/* alternância */
+.p2, .p4 {
+  flex-direction: row-reverse;
+}

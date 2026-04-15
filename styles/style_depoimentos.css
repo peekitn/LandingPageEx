@@ -31,3 +31,53 @@ margin-bottom: 15PX;
   padding: 30px;
   border-radius: 15px;
 }
+
+.carousel {
+  max-width: 350px;
+  margin: 40px auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.carousel-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* slides */
+.slide {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
+
+/* vídeos */
+.slide iframe {
+  width: 100%;
+  height: 520px;
+  border-radius: 15px;
+}
+
+/* bolinhas */
+.controls {
+  margin-top: 15px;
+}
+
+.controls a {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background: #ccc;
+  border-radius: 50%;
+  text-indent: -9999px;
+}
+
+.controls a:hover {
+  background: #c60c30;
+}
