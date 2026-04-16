@@ -6,7 +6,7 @@ body { /* reset only */
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 15px 30px;
+  padding: 15px 30px; /* cima baixo / esquerda direita */
   background: #ffffff;
 }
 
@@ -17,7 +17,7 @@ body { /* reset only */
 
 .menu {
   list-style: none;
-  display: flex;
+  display: flex; /* linha horizontal */
   gap: 20px;
 }
 
@@ -31,11 +31,11 @@ body { /* reset only */
 .hero {
   height: 80vh; /* 80vh */
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-              url('../images/Hero.avif') center/cover no-repeat;
+              url('../images/Hero.avif') center/cover no-repeat; /* centraliza e evita repetição */
   border-radius: 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /*alinhamento vertical */
+  justify-content: center; /* alinhamento horizontal */
   text-align: center;
   padding: 0 20px;
   color: white;
@@ -187,7 +187,7 @@ body { /* reset only */
 }
 
 .beneficios-text a {
-  display: inline-block;
+  display: inline-block; /* elemento fica lado a lado e ainda permite definir largura e altura */
   margin-top: 25px;
   font-size: 30px;
 }
@@ -255,7 +255,7 @@ body { /* reset only */
   gap: 40px;
   max-width: 1200px;
   margin: 0 auto 30px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* itens podem quebrar para a proxima linha quando nao cabem */
 }
 
 .footer-brand,
@@ -298,7 +298,7 @@ body { /* reset only */
 
 .footer-nav a:hover {
   color: #c60c30;
-  padding-left: 5px;
+  padding-left: 5px; /* joga pra direita */
 }
 
 .footer-bottom {
@@ -422,7 +422,7 @@ body { /* reset only */
 
 body {
   position: relative;
-  overflow-x: hidden;
+  overflow-x: hidden; /* sem scroll horizontal */
 }
 
 body::before,
