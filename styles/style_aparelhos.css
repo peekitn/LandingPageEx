@@ -1,3 +1,19 @@
+.apresentacao {
+  text-align: center;
+  padding: 40px 20px;
+}
+.apresentacao h1 {
+  font-size: 50px; 
+}
+
+.audio {
+  text-align: center;
+  padding: 40px 20px;
+}
+.audio h1 {
+  font-size: 50px; 
+}
+
 /* ===== SHOW ===== */
 
 .show {
@@ -11,11 +27,6 @@
 .show-aparelhos {
   max-width: 500px;
   text-align: justify;
-}
-
-.show-aparelhos h1 {
-  font-size: 42px;
-  margin-bottom: 20px;
 }
 
 .show-aparelhos p {
@@ -66,4 +77,5 @@
 
 .bloco-img img {
   width: 100%;
+  max-width: 300px;
 }

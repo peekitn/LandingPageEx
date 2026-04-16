@@ -16,7 +16,7 @@
   justify-content: center;
   gap: 40px;
   margin: 40px 20px;
-  flex-wrap: wrap; /* responsivo */
+  flex-wrap: wrap; /* pra ficarresponsivo */
 }
 
 .p1 p, .p2 p, .p3 p, .p4 p {

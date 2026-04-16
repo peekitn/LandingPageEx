@@ -29,7 +29,7 @@ body { /* reset only */
 
 /* ===== HERO ===== */
 .hero {
-  height: 361.60px; /* 80vh */
+  height: 80vh; /* 80vh */
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
               url('../images/Hero.avif') center/cover no-repeat;
   border-radius: 10px;
@@ -417,3 +417,38 @@ body { /* reset only */
 
 
 /* looking for every or no */
+
+/* ===== FUNDO DECORATIVO ===== */
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(80px);
+}
+
+/* círculo 1 */
+body::before {
+  width: 300px;
+  height: 300px;
+  background: rgba(198, 12, 48, 0.5); 
+  top: 10%;
+  left: -100px;
+  animation: flutuar 6s ease-in-out infinite;
+}
+
+body::after {
+  width: 250px;
+  height: 250px;
+  background: rgba(198, 12, 48, 0.4); 
+  bottom: 10%;
+  right: -80px;
+  animation: flutuar 8s ease-in-out infinite;
+}

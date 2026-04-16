@@ -50,4 +50,4 @@
 
 .faq-item input:checked ~ .faq-content { /* aqui abre o dropdown */
   max-height: 200px;
-}
+} 
